@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react';
 
-import { ExampleComponent } from '@psenger/padded-content-wrapper'
-import '@psenger/padded-content-wrapper/dist/index.css'
+import ContentWrapper from '@psenger/padded-content-wrapper'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  const [expanded, setExpand] = useState(false);
+  return <React.Fragment>
+    <ContentWrapper expanded={expanded}>test</ContentWrapper>
+    <button onClick={()=>setExpand(!expanded)}>toggle</button>
+  </React.Fragment>
 }
 
 export default App

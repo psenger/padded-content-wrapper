@@ -1,5 +1,5 @@
 import React from 'react';
 
-const ContentWrapper = ( {children, expanded} ) => (<div style={{paddingLeft: expanded?240:64}} >{children}</div>);
+const ContentWrapper = ( {children, expanded} ) => (<div className={expanded?'content-wrapper-expanded':'content-wrapper-collapsed'}>{children}</div>);
 
 export default ContentWrapper;

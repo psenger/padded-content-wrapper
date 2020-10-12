@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import ContentWrapper from '.'
 
-describe('ExampleComponent', () => {
+describe('ContentWrapper', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(ContentWrapper).toBeTruthy()
   })
 })
