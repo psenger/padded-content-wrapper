@@ -1,10 +1,17 @@
 {
   "name": "@psenger/padded-content-wrapper",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
-  "author": "psenger",
+  "description": "padded content wrapper",
+  "author": "Philip A Senger <psenger1@woolworths.com.au>",
   "license": "MIT",
-  "repository": "psenger/@psenger/padded-content-wrapper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psenger/padded-content-wrapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/psenger/padded-content-wrapper/issues"
+  },
+  "homepage": "https://github.com/psenger/padded-content-wrapper#readme",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

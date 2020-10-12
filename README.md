@@ -15,12 +15,11 @@ npm install --save @psenger/padded-content-wrapper
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from '@psenger/padded-content-wrapper'
-import '@psenger/padded-content-wrapper/dist/index.css'
+import ContentWrapper from '@psenger/padded-content-wrapper'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <ContentWrapper expanded={true}>expanded</ContentWrapper>
   }
 }
 ```
