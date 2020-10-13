@@ -1,5 +1,24 @@
-import React from 'react';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-const ContentWrapper = ( {children, expanded} ) => (<div className={expanded?'content-wrapper-expanded':'content-wrapper-collapsed'}>{children}</div>);
+const ContentWrapper = ({ children, expanded, id }) => (
+  <div
+    className={
+      expanded ? 'content-wrapper-expanded' : 'content-wrapper-collapsed'
+    }
+    id={id}
+  >
+    {children}
+  </div>
+)
 
-export default ContentWrapper;
+ContentWrapper.prototype = {
+  expanded: PropTypes.bool,
+  children: PropTypes.element
+}
+
+ContentWrapper.defaultProps = {
+  children: null
+}
+
+export default ContentWrapper

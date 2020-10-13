@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentWrapper is truthy 1`] = `
+<div
+  id="test-harness-proxy"
+  onClick={[Function]}
+>
+  <div
+    className="content-wrapper-collapsed"
+    id="test-harness"
+  >
+    hello world
+  </div>
+</div>
+`;
+
+exports[`ContentWrapper is truthy 2`] = `
+<div
+  id="test-harness-proxy"
+  onClick={[Function]}
+>
+  <div
+    className="content-wrapper-expanded"
+    id="test-harness"
+  >
+    hello world
+  </div>
+</div>
+`;
