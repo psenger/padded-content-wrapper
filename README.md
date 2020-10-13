@@ -27,3 +27,4 @@ class Example extends Component {
 ## License
 
 MIT © [psenger](https://github.com/psenger)
+
